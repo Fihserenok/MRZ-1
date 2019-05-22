@@ -1,0 +1,41 @@
+<!-- //////////////////////////////////////////////////////////////////////////////////////
+// Лабораторная работа 1 по дисциплине ЛОИС
+// Выполнена студентом группы 721701
+// БГУИР Козелецким Владиславом Геннадьевичем
+// HTML - документ
+// 24.04.19
+// 1.Алгоритм вычисления произведения пары 4-разрядных чисел
+// умножением со старших разрядов со сдвигом множимого (частичного произведения) вправо
+// Учебные материалы по JavaScript - https://learn.javascript.ru/, http://kharchuk.ru/JavaScript.pdf,
+// https://developer.mozilla.org/ru/docs/Web/JavaScript
+// Учебные материалы по HTML - http://htmlbook.ru/html5, https://study.up-skills.ru/, htmlreference.io, webref.ru/html, ruseller.com/htmlshpora.php
+// -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа 1 по дисциплине ЛОИС. Вариант 3.</title>
+    <script src="1lab.js"></script>
+</head>
+<style>
+    html {
+    height: 100%;
+   } 
+   body {
+    background: 
+     url(https://iti.bsuir.by/images/bsuir.png) right bottom no-repeat;
+     position: relative; 
+     margin-right: 200px;
+   }
+</style>
+    
+<body>
+    <input id="InputPairFirstElem" placeholder="Введите первые элементы пар" /> <br>
+    <input id="InputPairSecondElem" placeholder="Введите вторые элементы пар" /> <br>
+    <input id="Time" placeholder="Введите время обработки этапа"/> <br>
+    <button id="Build"  onclick='start();' >Создание таблицы</button>
+    <div id="ResultMassage"></div>
+    <table id="Table" border = "1"> </table> 
+</body>
+</html>
